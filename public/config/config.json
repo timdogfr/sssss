@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x26f3d33F06DAB4a76Bc32f349CCd3429614837c0",
+  "SCAN_LINK": "https://etherscan.io/address/0x35043d11D31346D005b848E3cd7998707FF7EE27",
+  "NETWORK": {
+    "NAME": "Avalanche",
+    "SYMBOL": "AVAX",
+    "ID": 43113
+  },
+  "NFT_NAME": "Bullish node NFTs",
+  "SYMBOL": "bullish",
+  "MAX_SUPPLY": 7777,
+  "WEI_COST": 1000000000000000000,
+  "DISPLAY_COST": 1.0,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/mutant-age-camel-club",
+  "SHOW_BACKGROUND": true
+}
