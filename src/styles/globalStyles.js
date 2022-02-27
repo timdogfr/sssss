@@ -127,13 +127,13 @@ color:#e0e0e0;
 export const row = styled.div`
 display:grid;
 grid-template-columns: ${({ col }) => (col ? col+"%" + col+"%" : "50% 50%")};
-width = ${({ wid }) => (wid ? wid+"%" : "100%")};
+width : ${({ wid }) => (wid ? wid+"%" : "100%")};
 justify-content: ${({ jc }) => (jc ? jc : "flex-start")};
 align-items: ${({ ai }) => (ai ? ai : "flex-start")};
 column-gap:${({ gap }) => (gap ? gap+"%" : "20%")};
 
 @media screen and (max-width: 768px) {
-  grid-template-columns: ${({ col }) => (col ? col+"%" + col+"%" : "100%")};s
+  grid-template-columns: ${({ col }) => (col ? col+"%" + col+"%" : "100%")};
 }
 `;
 
@@ -185,7 +185,7 @@ export const FlexContainer = styled.div`
   display:flex;
   flex-direction:${({ fd }) => (fd ? fd : "column")};
   justify-content:${({ jc }) => (jc ? jc : "flex-start")};
-  align-item :${({ ai }) => (ai ? ai : "flex-start")};
+  align-items :${({ ai }) => (ai ? ai : "flex-start")};
   flex-wrap:wrap;
   margin-top : ${({ mt }) => (mt ? mt : "0")};
 
