@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import  Navbar  from "./components/Navbar/Navbar";
-import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/footer";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import * as s from "./styles/globalStyles";

@@ -11,12 +11,15 @@ export const Body = styled.div`
   padding: 0;
   box-sizing: border-box;
   position: relative;
-
-  :after{
-  content: "";
-  background-image: url('config/images/bg.jpg') ;
+  background-image: url('config/images/bg.jpg') !important ;
   background-size: cover;
   background-position: 100% 100%;
+  :after{
+  content: "";
+  background-image: url('config/images/bg.jpg') !important ;
+  background-size: cover;
+  background-position: 100% 100%;
+
   opacity: 0.2;
   top: 0;
   left: 0;
@@ -84,7 +87,7 @@ export const AmountContainer = styled.div`
 
 export const TextTitle = styled.p`
   color: ${({color}) => color ? color : "#fff"};
-  font-size:1.8rem;
+  font-size:${({size}) => size ? size+"rem" : "1.8rem"};
   font-weight: 500;
   line-height: 1.6;
   font-family: 'wonder';

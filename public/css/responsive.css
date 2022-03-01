@@ -1,0 +1,191 @@
+/* Responsive */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+}
+/* Responsive */
+
+@media only screen and (max-width: 1600px) {
+
+	.circle_area {
+	    padding-top: 1.875vw;
+	}
+
+	.allIcons {
+	    margin-top: 9.188vw;
+	}
+
+	.circle_box.circle4 {
+	    margin-top: 4.375vw;
+	}
+
+	.circle_box.circle5 {
+	    margin-top: 11.750vw;
+	}
+
+	.circle_box.circle6 {
+	    margin-top: 13.313vw;
+	    margin-left: -1.875vw;
+	}
+
+	.circle_box.circle1 {
+	    margin-top: 4.438vw;
+	    margin-right: 1.500vw;
+	}
+
+	.circle_box.circle2 {
+	    margin-top: 11.875vw;
+	}
+
+	.circle_box.circle3 {
+	    margin-top: 13.125vw;
+	    margin-right: 1.438vw;
+	}
+   
+}/*  (max-width: 1600px) */
+
+@media only screen and (max-width: 1440px) {
+
+	.allIcons img {
+	    width: 166%;
+	}
+
+	.allIcons {
+	    margin-top: 4.188vw;
+	}
+
+} /*  (max-width: 1440px) */
+
+@media only screen and (max-width: 1200px) {
+
+	.allIcons img {
+	    width: 141%;
+	}
+
+	.circle_cont h2 {
+	    font-size: 26px;
+	    margin-bottom: 5px;
+	}
+
+	.circle_cont p {
+	    font-size: 16px;
+	}
+
+	.circle_left {
+	    width: 340px;
+	}
+
+	.circle_right {
+	    width: 340px;
+	}
+
+	.circle_box.circle5 {
+	    margin-top: 8.75vw;
+	}
+
+	.circle_box.circle6 {
+	    margin-top: 6.313vw;
+	}
+
+	.circle_box.circle2 {
+	    margin-top: 7.875vw;
+	}
+
+	.circle_box.circle3 {
+	    margin-top: 7.125vw;
+	}
+
+	.progress_box h3 {
+	    font-size: 36px;
+	}
+
+	.progress_box p {
+	    font-size: 16px;
+	}
+
+} /*  (max-width: 1100px) */
+
+@media only screen and (max-width: 1199px) {
+    
+} /* (max-width: 1199px) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+} /*  (min-width: 768px) and (max-width: 991px) */
+
+@media only screen and (max-width: 991px) {
+
+	.allIcons img {
+	    width: 150%;
+	}
+
+	.tokken_progressArea {
+	    padding-top: 39px;
+	}
+
+}/*and (max-width: 991px)*/
+    
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+   
+} /* (min-width: 426px) and (max-width: 767px) */
+      
+@media only screen and (max-width: 800px) {
+	.allIcons img {
+	    width: 252%;
+	}
+}
+      
+@media only screen and (max-width: 767px) {
+
+	.circleContainer {
+	    flex-direction: column;
+	}
+
+	.circleContainer .circle_box {
+	    margin: 0 0 40px 0 !important;
+	    max-width: 100%;
+	}
+
+	.circleContainer {
+	    padding-top: 50px;
+	}
+
+	.allIcons img {
+	    width: 90%;
+	}
+
+	.allIcons {
+	    margin: 50px 0;
+	}
+
+	.circle_left, .circle_right {
+	    text-align: left;
+	    width: 100%;
+	    max-width: 450px;
+	}
+
+	.circle_area {
+	    padding: 0px 15px 50px 15px;
+	}
+
+	.tokken_progressArea {
+	    padding: 50px 15px 50px;
+	}
+
+}/* and (max-width: 767px) */
+       
+@media only screen and (max-width: 575px) {
+
+} /* (max-width: 575px) */
+    
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+	
+}     /*  (min-width: 320px) and (max-width: 425px) */
+
+@media only screen and (max-width: 480px) {
+
+} /* (max-width: 480px) */
+      
+@media only screen and (max-width: 360px) {
+
+} /* (max-width: 360px)  */

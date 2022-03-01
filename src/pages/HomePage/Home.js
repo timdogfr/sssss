@@ -10,7 +10,8 @@ import { ResponsiveWrapper } from "./../../components/styles/responsivewrapper.s
 import * as s from "./../../styles/globalStyles";
 import Navbar from "../../components/Navbar/Navbar";
 import HeroSection from "../../components/HeroSection/HeroSection";
-import Countdown from "../../components/Countdown/Countdown";
+import Roadmap from "../../components/Roadmap/Roadmap";
+import Embed from "../../components/Embed/Embed";
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
@@ -141,7 +142,7 @@ function Home() {
         jc={"space-evenly"}
         ai={"center"}
         fd={"row"}
-        mt={"-70vh"}
+        mt={"-80vh"}
         style={{
           zIndex: "1",
          
@@ -253,6 +254,17 @@ function Home() {
 
         </s.Mint>
       </s.FlexContainer>
+     
+     <s.FlexContainer  ai={"center"} jc={"space-between"}>
+     <s.SpacerLarge />
+     <s.SpacerLarge />
+     <s.TextTitle size={3}>
+          RoadMap
+        </s.TextTitle>
+        <s.SpacerLarge />
+        <Roadmap/>
+     </s.FlexContainer>
+     
       </s.Body>
     </>
     
