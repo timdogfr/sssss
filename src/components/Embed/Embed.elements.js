@@ -31,3 +31,8 @@ export const Icon = styled.div`
     cursor: pointer;
     outline: none;
 `;
+
+export const Heading = styled.h1`
+    font-size: 2rem;
+    color: #fff;
+`;

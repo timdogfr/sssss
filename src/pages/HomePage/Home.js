@@ -142,7 +142,7 @@ function Home() {
         jc={"space-evenly"}
         ai={"center"}
         fd={"row"}
-        mt={"-80vh"}
+        mt={"-75vh"}
         style={{
           zIndex: "1",
          
@@ -255,16 +255,18 @@ function Home() {
         </s.Mint>
       </s.FlexContainer>
      
-     <s.FlexContainer  ai={"center"} jc={"space-between"}>
+     <s.FlexContainer  ai={"center"} jc={"space-between"} id="roadmap">
      <s.SpacerLarge />
      <s.SpacerLarge />
      <s.TextTitle size={3}>
           RoadMap
         </s.TextTitle>
         <s.SpacerLarge />
-        <Roadmap/>
+       <Roadmap />
+       <s.SpacerLarge />
+       <s.SpacerLarge />
      </s.FlexContainer>
-     
+    
       </s.Body>
     </>
     

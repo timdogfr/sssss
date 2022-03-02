@@ -16,10 +16,6 @@ export const Body = styled.div`
   background-position: 100% 100%;
   :after{
   content: "";
-  background-image: url('config/images/bg.jpg') !important ;
-  background-size: cover;
-  background-position: 100% 100%;
-
   opacity: 0.2;
   top: 0;
   left: 0;

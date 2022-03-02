@@ -116,16 +116,16 @@ const Navbar = () => {
             </NavItems>
 
             <NavItems>
-              <NavLink onClick={homeLink} spy={true} smooth={true} offset={-80} duration={500}>About</NavLink>
+              <NavLink  spy={true} smooth={true} offset={-80} duration={500}>About</NavLink>
             </NavItems>
 
             <NavItems>
-              <NavLink onClick={homeLink} spy={true} smooth={true} offset={-80} duration={500}>Roadmap</NavLink>
+              <NavLink to="roadmap"  spy={true} smooth={true} offset={-80} duration={500}>Roadmap</NavLink>
             </NavItems>
 
             
             <NavItems>
-              <NavLink onClick={homeLink} spy={true} smooth={true} offset={-80} duration={500}>Tokenomics</NavLink>
+              <NavLink to="tokenomic"  spy={true} smooth={true} offset={-80} duration={500}>Tokenomics</NavLink>
             </NavItems>
 
 
