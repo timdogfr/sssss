@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0x483610c99e02918f4f67fbf4c90d6de241baa6cb",
-  "SCAN_LINK": "https://etherscan.io/address/0x35043d11D31346D005b848E3cd7998707FF7EE27",
+  "CONTRACT_ADDRESS": "0xfAc814f8bc1aeEfdd9B7d4E1F730d4798964C7f6",
+  "SCAN_LINK": "https://snowtrace.io/address/0xfAc814f8bc1aeEfdd9B7d4E1F730d4798964C7f6",
   "NETWORK": {
     "NAME": "Avalanche",
     "SYMBOL": "AVAX",
-    "ID": 43113
+    "ID": 43114
   },
   "NFT_NAME": "Bullish Node",
   "SYMBOL": "bullish",
