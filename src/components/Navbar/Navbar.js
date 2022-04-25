@@ -115,20 +115,6 @@ const Navbar = () => {
               <NavLink onClick={homeLink} spy={true} smooth={true} offset={-80} duration={500}>Home</NavLink>
             </NavItems>
 
-            <NavItems>
-              <NavLink  spy={true} smooth={true} offset={-80} duration={500}>About</NavLink>
-            </NavItems>
-
-            <NavItems>
-              <NavLink to="roadmap"  spy={true} smooth={true} offset={-80} duration={500}>Roadmap</NavLink>
-            </NavItems>
-
-            
-            <NavItems>
-              <NavLink to="tokenomic"  spy={true} smooth={true} offset={-80} duration={500}>Tokenomics</NavLink>
-            </NavItems>
-
-
             <NavItems style={{ paddingLeft: "0px" }}>
               <NavLink onClick={() => socialMedia(" https://discord.gg/fCqjqA4xGs ")}>
                 <NavIcon src={"config/images/discord.png"}></NavIcon>
